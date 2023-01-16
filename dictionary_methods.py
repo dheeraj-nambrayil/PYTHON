@@ -1,7 +1,7 @@
 def get(a):
     print("Enter the key : ",end = "")
     k = input()
-    j = int()
+    j = ''
     if k.isdigit():
         j = int(k)
     if k in a:
